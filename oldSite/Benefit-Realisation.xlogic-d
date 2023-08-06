@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain majorVersion="3" minorVersion="0">
+    <attributes>
+        <attribute class="java.lang.String" key="name">Benefit Realisation</attribute>
+        <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        <attribute class="java.lang.Boolean" key="hidden">false</attribute>
+    </attributes>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">9c21c783-2cf6-4632-a491-4fd8f5cec07a</attribute>
+            <attribute class="java.lang.String" key="name">Business Change</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="0.0" green="0.0" red="1.0"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">015996de-3042-4524-a7bc-e358986b57b6</attribute>
+            <attribute class="java.lang.String" key="name">Enabling Change</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="0.4000000059604645" green="0.0" red="0.4000000059604645"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">0ce1cb71-9cbb-4879-84a7-008d8887d794</attribute>
+            <attribute class="java.lang.String" key="name">IT Enabler</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="0.20000000298023224" green="1.0" red="0.20000000298023224"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">31183116-ec14-4001-ba3e-5e3940a9c0f9</attribute>
+            <attribute class="java.lang.String" key="name">Investment Objective</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="1.0" green="0.6000000238418579" red="0.20000000298023224"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">5c245df6-5891-462d-a393-d95aee43fd68</attribute>
+            <attribute class="java.lang.String" key="name">Observable Benefit</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="0.800000011920929" green="1.0" red="1.0"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">309395cd-e17d-4d3a-9094-7916061c882c</attribute>
+            <attribute class="java.lang.String" key="name">Measurable Benefit</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="0.6000000238418579" green="1.0" red="1.0"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">f5489c68-670f-4e39-8960-00dd4a8cd181</attribute>
+            <attribute class="java.lang.String" key="name">Quantifiable Benefit</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="0.4000000059604645" green="1.0" red="1.0"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+    <entityClass>
+        <attributes>
+            <attribute class="java.util.UUID" key="uuid">0dbdff59-e36d-4763-b75c-b1d7d3a9ce76</attribute>
+            <attribute class="java.lang.String" key="name">Financial Benefit</attribute>
+            <attribute class="com.arciem.graphics.ColorRGB" key="color">
+                <colorRGB blue="0.20000000298023224" green="1.0" red="1.0"/>
+            </attribute>
+            <attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+            <attribute class="java.lang.Double" key="effort">86400.0</attribute>
+            <attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+        </attributes>
+    </entityClass>
+</domain>
