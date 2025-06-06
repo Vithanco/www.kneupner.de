@@ -298,7 +298,6 @@ header {
   font-weight: bold;
   color: var(--accent);
 }
-
 .toc-list ul {
   display: flex;
   flex-direction: column;
@@ -308,61 +307,49 @@ header {
 
 .toc-list ul li {
   padding: 0.25em;
-  background-color: rgba(0, 0, 0, 0.007);
-  box-shadow: rgba(0, 0, 0, 0.025) 0px 1px 4px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
   transition: background-color;
   transition-duration: 50ms;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin-left: 0;
 }
 
 .toc-list ul li:hover {
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Level 2 items */
 .toc-list ul li ul li {
   font-size: 12px;
   font-weight: lighter;
-  background-color: rgba(0, 0, 0, 0.01);
+  background-color: rgba(255, 255, 255, 0.08);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 0.5em;
-  box-shadow: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
+  margin-left: 1.5em;
+  margin-top: 0.25em;
+  border-left: 3px solid var(--accent);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.toc-list ul li {
-  border: 1px solid rgba(123, 123, 123, 0.5);
-  border-radius: 10px;
+.toc-list ul li ul li:hover {
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
-.item-list ul {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4em;
+/* Level 3 items */
+.toc-list ul li ul li ul li {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 2em;
+  font-size: 11px;
+  border-left: 2px solid rgba(234, 88, 12, 0.8);
 }
 
-.item-list ul li {
-  border: 1px solid rgba(123, 123, 123, 0.25);
-  background-color: rgba(0, 0, 0, 0.0075);
-  border-radius: 10px;
-  padding: 0.25em;
-  padding-inline: 0.5em;
-  transition: background-color;
-  transition-duration: 50ms;
-}
-
-.item-list ul li:hover {
-  background-color: rgba(0, 0, 0, 0.03);
-}
-
-.item-list ul li a p {
-  font-weight: normal;
-  font-size: 15px;
-}
-
-.item-list ul li p {
-  font-weight: lighter;
-  font-size: 10px;
-  user-select: none;
+.toc-list ul li ul li ul li:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .newsletter {
